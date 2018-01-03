@@ -30,7 +30,7 @@
 		"LoginGuid" is randomly generated, assigned, and tracked by Sysmon to assist in tracing individual user sessions.
 -->
 
-<Sysmon schemaversion="3.30">
+<Sysmon schemaversion="4.00">
 	<HashAlgorithms>md5,sha256</HashAlgorithms>
 	<EventFiltering>
 
