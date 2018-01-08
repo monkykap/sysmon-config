@@ -219,6 +219,8 @@
 		</NetworkConnect>
 		<NetworkConnect onmatch="exclude">
 			<Image condition="image">osqueryd.exe</Image> <!--Kolide:Osqueryd-->
+			<Image condition="image">TmListen.exe</Image> <!--Trend-->
+			<Image condition="image">NTRTScan.exe</Image> <!--Trend-->
 			<Image condition="image">OneDrive.exe</Image> <!--Microsoft:OneDrive-->
 			<Image condition="image">Spotify.exe</Image> <!--Spotify-->
 			<Image condition="end with">AppData\Roaming\Dropbox\bin\Dropbox.exe</Image> <!--Dropbox-->
