@@ -362,6 +362,8 @@
 			<SourceImage condition="is">C:\Windows\System32\lsm.exe</SourceImage><!-- # System process under C:\Windows\System32\lsm.exe-->
 			<SourceImage condition="end with">Microsoft.Identity.AadConnect.Health.AadSync.Host.exe</SourceImage><!-- # Microsoft Azure AD Connect Health Sync Agent-->
 			<SourceImage condition="begin with">C:\Program Files (x86)\Symantec\Symantec Endpoint Protection</SourceImage><!-- # Symantec-->
+			<SourceImage condition="end with">procexp.exe><!-- # Process Explorer-->
+			<SourceImage condition="end with">procexp64.exe><!-- # Process Explorer-->
 		</ProcessAccess>
 
 	<!--SYSMON EVENT ID 11 : FILE CREATED-->
