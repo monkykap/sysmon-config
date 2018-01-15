@@ -307,6 +307,9 @@
 			<Image condition="is">C:\Windows\System32\backgroundTaskHost.exe</Image>
 			<Image condition="is">C:\Windows\System32\mmc.exe</Image>
 			<Image condition="end with">sysmon64.exe</Image>
+			<Image condition="end with">LogonUI.exe</Image>
+			<Image condition="end with">WmiPrvSE.exe</Image>
+			<Image condition="end with">svchost.exe</Image>
 			<ImageLoaded condition="contains">C:\Program Files (x86)\SmartGit</ImageLoaded> <!--SmartGit-->
 			<ImageLoaded condition="contains">syntevo\SmartGit</ImageLoaded> <!--SmartGit-->
 			<Image condition="is">C:\Windows\System32\backgroundTaskHost.exe</Image> <!-- Windows Store apps unsigned -->
